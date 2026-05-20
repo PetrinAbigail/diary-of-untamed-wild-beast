@@ -1,100 +1,88 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Novel Library — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<html lang="en"> 
-
-<head> 
-
-    <meta charset="UTF-8">  
-    <link rel="stylesheet" href="styles.css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    
-   <title>DIARY OF AN UNTAMED WILD BEAST</title>
-   <style>
-    p, h4  {
-        text-align: center;
-    }
-    footer {
-        max-width:100%;
-    }
-   </style>
-</head> 
+</head>
 <body>
 <header>
-    <h2>DIARY OF AN UNTAMED WILD BEAST</h2> <h5>Contact</h5>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
-
-        <div class="container"> 
-
-            <a class="navbar-brand" href="index.html">DIARY OF AN UNTAMED WILD BEAST</a> 
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
-                <span class="navbar-toggler-icon"></span> 
-
-            </button> 
-
-            <div class="collapse navbar-collapse" id="navbarNav"> 
-
-                <ul class="navbar-nav"> 
-
-                    <li class="nav-item"> 
-
-                        <a class="nav-link" href="index.html">Home</a> 
-
-                    </li> 
-
-                    <li class="nav-item"> 
-
-                        <a class="nav-link" href="about.html">About</a> 
-
-                    </li> 
-
-                    <li class="nav-item"> 
-
-                        <a class="nav-link" href="contact.html">Contact</a> 
-
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="book.html">Book</a>
-                    </li>
-
-                </ul> 
-
-            </div> 
-
-        </div> 
-
-    </nav> 
+<nav>
+  <a href="index.html" class="logo">The Novel <span>Library</span></a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="books.html">Books</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 </header>
-    <main>
-        <h4>Published by</h4>
-        <p>kingdom publishers</p>
-        <p>P O Box 201103, Gaborone, Botswana</p>
-        <p>contacts: +267 74559343</p>
-        <p>Email: kingdommediabw@gmail.com</p>
 
-        <h4>printed by</h4>
-        
+<div class="hero" style="padding:3rem 2rem;">
+  <h1>Get in <em>Touch</em></h1>
+  <p>We'd love to hear from you.</p>
+</div>
 
-        <p>Eldon creative</p>
-        <p>Email: eldoncreative@gmail.com</p>
-        <p>.</p>
-        <p>ISBN: 978-99968-917-7-9</p>
-        <P>.</P>
-        <P>&COPY;2020 Lillian Methe, Diary of Untamed Wild Beast</P>
-        <p>Author Contacts</p>
-        <p>P O Box 367, Molepolole</p>
-        <p>lillymethe@gmail.com</p>
+<section>
+  <div class="contact-grid">
 
-        <p style="text-align: left;">All rights reserved. No part of this book may be reproduced or used in any form or by any means without the authors permision. Any person who does unauthorised works in relation to this publication will be liable to criminal prosecution.</p>
-    </main>
+    <div class="contact-info">
+      <p class="section-label">Contact Us</p>
+      <h2>Let's Talk</h2>
+      <p>Questions, suggestions, or partnership ideas, our inbox is open.</p>
+      <div class="detail">
+        <div class="detail-icon">📧</div>
+        <p>petrinabigail05@gmail.com</p>
+      </div>
+      <div class="detail">
+        <div class="detail-icon">📞</div>
+        <p>+267 78 693 068</p>
+      </div>
+    </div>
 
-        <footer> 
+    <div class="form-box">
+      <form action="feedback.html" method="get">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <select>
+            <option>General Question</option>
+            <option>Book Recommendation</option>
+            <option>Author Submission</option>
+            <option>Partnership</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Your message…" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
 
-        <p>&copy; Petrin Abigail 2026</p> 
-        </footer> 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+  </div>
+</section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
+<footer>
+  <p>&copy; 2026 The Novel Library</p>
+  <p>bida25-287@thuto.bac.ac.bw</p>
+</footer>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>
